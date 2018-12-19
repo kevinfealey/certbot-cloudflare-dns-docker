@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t kfealey/certbot-cloudflare-dns .
+docker push kfealey/certbot-cloudflare-dns:latest
